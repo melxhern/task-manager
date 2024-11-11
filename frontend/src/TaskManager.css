@@ -1,0 +1,55 @@
+.main {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  padding: 20px;
+}
+
+.get-tasks,
+.post-tasks {
+  width: 48%;
+  text-align: center;
+}
+
+.get-tasks {
+  padding-right: 10px;
+  border-right: 0.2rem solid #000;
+}
+
+.post-tasks {
+  padding-left: 10px;
+}
+
+.tasks-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+.task-card {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  box-sizing: border-box;
+  margin-bottom: 1rem;
+}
+
+.task-card p {
+  margin: 0.3rem 0;
+}
+
+.task-card label {
+  margin: 1rem;
+}
+
+.task-card button {
+  text-align: center;
+  align-self: center;
+  width: 5rem;
+}
